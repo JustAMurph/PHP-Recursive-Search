@@ -5,7 +5,7 @@ A library for recursively searching for files in PHP.
 
 ##### Class Based
 ```PHP
-require('RecursiveSearch');
+require('RecursiveSearch.php');
 
 // Class-based Usage
 $search = new RecursiveSearch();
