@@ -57,6 +57,6 @@ private $allowedExtensions = ['jpg','png','gif', 'pdf', 'doc', 'csv', 'xml', 'js
 You may specify your own allowed extensions by passing a second argument. 
 
 ```PHP
-$search = new Search();
+$search = new RecursiveSearch();
 list($files, $directories) = $search->find('filename', ['php', 'rb']);
 ```
