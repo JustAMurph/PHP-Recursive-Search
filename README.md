@@ -25,7 +25,7 @@ $files = RecursiveSearch::searchFiles('filename');
 
 _Get all directories_
 ```PHP
-$files = RecursiveSearch::searchDirectories('filename');
+$directories = RecursiveSearch::searchDirectories('filename');
 ```
 
 _Option list for static methods_
