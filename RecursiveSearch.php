@@ -119,7 +119,7 @@ class RecursiveSearch {
      *
      * $searchString = "/contents/images/file"; Returns ['contents/images/', 'file'];
      * $searchString = 'file'; Returns [$this->defaultDirectory, 'file'];
-     * $searchSTring = 'file.jpg'; Returns [$this->defaultDirectory', 'file.jpg'];
+     * $searchSTring = 'file.jpg'; Returns [$this->defaultDirectory, 'file.jpg'];
      *
      *
      * @param string $searchString String to split into parts.
